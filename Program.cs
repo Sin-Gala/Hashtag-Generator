@@ -1,12 +1,12 @@
-﻿using System;
-
-namespace Hashtag_Generator
+﻿namespace HashtagGenerator
 {
     class Program
     {
+        public static Generator generator;
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            generator = new Generator();
         }
     }
 }
